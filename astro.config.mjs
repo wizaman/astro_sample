@@ -2,5 +2,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://astro_sample.wizaman.github.io/'
+    site: 'https://wizaman.github.io/',
+    base: '/astro_sample',
 });
