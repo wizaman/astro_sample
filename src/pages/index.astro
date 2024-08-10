@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Astro Sample">
 	<main>
 		<svg
 			class="astro-a"
@@ -33,31 +33,31 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<h1><span class="text-gradient">Astro</span>のサンプル実装</h1>
 		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			<a href="https://astro.build/">Astro</a> に慣れるための<strong>サンプルプロジェクト</strong>です。<br />
+			<code>src/pages</code> 以下のファイルを編集します。
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
+				title="ドキュメンテーション"
+				body="Astroの動作方法を学び、公式のAPIドキュメントを探索しましょう。"
 			/>
 			<Card
 				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
+				title="統合"
+				body="新しいフレームワークやライブラリでプロジェクトを強化しましょう。"
 			/>
 			<Card
 				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
+				title="テーマ"
+				body="コミュニティが作成したスターターテーマの宇宙を探索しましょう。"
 			/>
 			<Card
 				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
+				title="コミュニティ"
+				body="素晴らしいDiscordコミュニティに挨拶しましょう。 ❤️"
 			/>
 		</ul>
 	</main>
@@ -110,6 +110,9 @@ import Card from '../components/Card.astro';
 		color: rgb(var(--accent-light));
 		border-radius: 4px;
 		padding: 0.3em 0.4em;
+	}
+	.instructions a {
+		color: rgb(var(--accent-light));
 	}
 	.instructions strong {
 		color: rgb(var(--accent-light));
