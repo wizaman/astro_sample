@@ -1,7 +1,10 @@
 import { defineConfig } from 'astro/config';
 
+import mdx from "@astrojs/mdx";
+
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://wizaman.github.io/',
-    base: '/astro_sample',
+  site: 'https://wizaman.github.io/',
+  base: '/astro_sample',
+  integrations: [mdx()]
 });
