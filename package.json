@@ -13,7 +13,7 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/mdx": "^3.1.7",
     "@astrojs/ts-plugin": "^1.10.2",
-    "astro": "^4.15.8",
+    "astro": "^4.15.9",
     "dset": "^3.1.4",
     "typescript": "^5.5.3"
   }
